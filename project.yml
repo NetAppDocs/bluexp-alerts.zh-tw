@@ -1,0 +1,46 @@
+---
+settings:
+  name: BlueXP alerts
+  platform: cloud
+  internal:
+    pdf_enabled: true
+    termcheck_enabled: true
+    lipi_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: BlueXP  警示文件
+    url: "/index.html"
+  - title: 版本資訊
+    url: "/whats-new.html"
+  - title: 開始使用
+    entries:
+    - title: 瞭解 BlueXP  警示
+      url: "/concept-alerts.html"
+    - title: 先決條件
+      url: "/alerts-start-prerequisites.html"
+    - title: 快速入門
+      url: "/alerts-start-quick-start.html"
+    - title: 設定 BlueXP  警示
+      url: "/alerts-start-setup.html"
+    - title: 存取 BlueXP  警示
+      url: "/alerts-start-login.html"
+  - title: 使用 BlueXP  警示
+    entries:
+    - title: 使用 BlueXP  警示總覽
+      url: "/alerts-use-overview.html"
+    - title: 檢視 ONTAP 儲存設備的潛在風險
+      url: "/alerts-use-dashboard.html"
+    - title: 檢視儲存環境中的警示
+      url: "/alerts-use-alerts.html"
+  - title: 常見問題集
+    url: "/alerts-faq.html"
+  - title: 法律聲明
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: bluexp-family

@@ -1,0 +1,19 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-overview.html 
+keywords: alerts, alerts, ontap, netapp 
+summary: 使用 BlueXP  警示、您可以檢視工作負載健全狀況並保護工作負載。 
+---
+= 使用 BlueXP  警示
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以使用 BlueXP  警示來檢視儲存問題、並透過直接連至系統管理員的連結查看詳細資料。
+
+* link:alerts-use-dashboard.html["從「警示」清單頁面檢視儲存問題或潛在風險"]。
+* link:alerts-use-alerts.html["檢視在 System Manager 中連結的警示詳細資料"]
+

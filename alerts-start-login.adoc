@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-login.html 
+keywords: bluexp login, log in, ontap, netapp 
+summary: 存取 BlueXP  中的服務、開始使用 BlueXP  警示。 
+---
+= 存取 BlueXP  警示
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以使用 NetApp BlueXP  登入 BlueXP  警示服務。
+
+若要登入 BlueXP  、您可以使用 NetApp 支援網站認證、或使用電子郵件和密碼登入 NetApp 雲端。 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["深入瞭解登入"^]。
+
+.步驟
+. 開啟網頁瀏覽器並前往 https://console.bluexp.netapp.com/["BlueXP主控台"^]。
++
+出現 NetApp BlueXP 登入頁面。
+
+. 登入 BlueXP 。
+. 從 BlueXP  左側導航欄中，選擇 * Monitoring * > * Alerts * （警報 * ）。
++
+「警示」清單頁面隨即出現。
+
++
+image:alerts-dashboard.png["BlueXP  警示清單頁面"]
+
+

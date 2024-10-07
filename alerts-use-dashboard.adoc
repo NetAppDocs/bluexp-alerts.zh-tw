@@ -1,0 +1,174 @@
+---
+sidebar: sidebar 
+permalink: alerts-use-dashboard.html 
+keywords: alerts, alerts dashboard, ontap, netapp, bluexp, cluster,capacity, protection, security 
+summary: BlueXP  警示服務提供有關 ONTAP 環境健全狀況的概覽資訊。您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、判斷可用度、以及識別安全風險。 
+---
+= 使用「警示」清單頁面檢視 ONTAP 儲存設備的潛在風險
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  警示服務提供有關 ONTAP 環境中潛在風險的概覽資訊。您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、判斷可用度、以及識別安全風險。
+
+BlueXP  警示服務提供以下嚴重性和影響領域的相關資訊：
+
+* * 嚴重性 * ：重大、警告、資訊
+* * 影響領域 * ：容量、效能、可用度、保護、安全性、組態
+
+
+
+
+== 您可能會看到的警示
+
+以下是服務顯示的一些警示。
+
+EMS 嚴重性會以下列方式對應至 BlueXP  警示服務嚴重性：
+
+[cols="40,40"]
+|===
+| EMS 警示嚴重性： | BlueXP  警示嚴重性： 
+
+
+| 警示或緊急 | 關鍵 
+
+
+| 錯誤 | 無 
+
+
+| 低 | 警告 
+
+
+| 注意 | 資訊 
+
+
+| 資訊 | 資訊 
+|===
+.警示清單
+[%collapsible]
+====
+嚴重程度警示：
+
+* Aggregate 狀態不在線上
+* 磁碟故障
+* SnapMirror 延遲時間很長
+* Volume 狀態為離線
+* Volume 已使用百分比違規
+
+
+EMS 警示：
+
+* 防毒伺服器忙碌中
+* AWS 認證未初始化
+* 無法連線至雲端層
+* 磁碟故障
+* 發現磁碟櫃電源供應器
+* 磁碟櫃電源供應器已移除
+* FabricPool 鏡像複寫重新同步完成
+* 幾乎達到 FabricPool 空間使用量限制
+* 已達到 FabricPool 空間使用量限制
+* 已超過 FC 目標連接埠命令
+* 儲存池的 GiveBack 失敗
+* HA 互連中斷
+* LUN 已損毀
+* LUN 離線
+* 主裝置風扇故障
+* 主裝置風扇處於警告狀態
+* 已超過每位使用者的工作階段上限
+* 超過每個檔案開啟的最大時間
+* MetroCluster 自動非計畫性切換已停用
+* MetroCluster 監控
+* NetBIOS 名稱衝突
+* NFSv4 集區疼痛已耗盡
+* 節點緊急情況
+* 節點根磁碟區空間不足
+* 不存在的管理共用區
+* 無回應的防毒伺服器
+* 無已登錄的掃描引擎
+* 無 VScan 連線
+* NVMe 命名空間已損毀
+* NVMe 命名空間離線
+* NVMe 命名空間在線上
+* NVMe 授權寬限期作用中
+* NVMe 授權寬限期已過期
+* NVMe 授權寬限期開始
+* NVRAM 電池電量不足
+* 物件存放區主機無法解析
+* 物件存放區叢集間 LIF 已關閉
+* 物件存放區簽章不符
+* QoS 監控記憶體已用盡
+* 偵測到勒索軟體活動
+* 儲存池重新配置失敗
+* 新增 ONTAP Mediator
+* ONTAP Mediator 無法存取
+* ONTAP Mediator 無法連線
+* ONTAP Mediator 已移除
+* readdir 逾時
+* SAN 「雙主動」狀態已變更
+* 服務處理器心跳遺失
+* 服務處理器心跳停止
+* 服務處理器離線
+* 服務處理器尚未設定
+* 陰影複製失敗
+* FC 目標介面卡中的 SFP 耗電量低
+* FC 目標介面卡中的 SFP 傳輸低功率
+* 機櫃風扇故障
+* SMBC CA 憑證已過期
+* SMBC CA 憑證即將過期
+* SMBC 用戶端憑證已過期
+* SMBC 用戶端憑證即將過期
+* SMBC 關係不同步
+* SMBC 伺服器憑證已過期
+* SMBC 伺服器憑證即將過期
+* SnapMirror 關係不同步
+* 儲存交換器電源供應器故障
+* 儲存 VM 反勒索軟體監控
+* 儲存 VM 停止成功
+* 由於主裝置風扇故障、系統無法運作
+* CIFS 驗證太多
+* 未指派的磁碟
+* 未經授權的使用者存取管理共用
+* 偵測到病毒
+* Volume 防勒索軟體監控
+* Volume 自動調整大小成功
+* Volume離線
+* Volume 受限
+
+
+====
+如需 ONTAP 警示的詳細資訊、請參閱 ONTAP 文件和 System Manager 深入資訊、網址為： https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["System Manager 可深入瞭解容量、安全性和組態問題"^]。
+
+
+
+== 檢視 ONTAP 儲存問題
+
+.步驟
+. 從 BlueXP  左側導航欄中，選擇 * Monitoring * > * Alerts * （警報 * ）。
++
+探索之後、「警示」清單頁面會顯示 ONTAP 環境中的警示清單。
+
++
+發生事件與顯示事件的 BlueXP  警示之間可能會有延遲。
+
+. 從「警示」清單頁面、您可以檢視及執行下列任何一項：
++
+** 按一下欄的向上或向下箭頭、變更排序順序。
+** 變更欄中的篩選條件、只顯示您想要的資訊。
++
+
+TIP: 例如、您可能只想查看與容量相關的警示。若要這麼做、請按一下「影響區域」欄的篩選圖示、選取 * 容量 * 、然後選取 * 套用 * 。
+
++
+image:alerts-dashboard-capacity-filter.png["顯示影響區域篩選器的警示頁面"]
+
+** 下載內含警示資訊的 CSV 檔案。
++
+您最多可以下載 1000 個警示。檔案會根據所設定的篩選條件來包含資料。
+
+** 選取警示並深入瞭解該叢集的警示詳細資料。請參閱。 link://alerts-use-alerts.html["檢視警示詳細資料"]
+
+
+

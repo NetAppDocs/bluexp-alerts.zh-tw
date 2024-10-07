@@ -1,0 +1,67 @@
+---
+sidebar: sidebar 
+permalink: alerts-faq.html 
+keywords: alerts faq, alerts frequently asked questions, bluexp, bluexp alert 
+summary: 如果您只是想要快速回答問題、這個 BlueXP  警示常見問題集就有幫助。 
+---
+= BlueXP  警示的常見問題集
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+如果您只是想要快速回答問題、這個常見問題集就能幫上忙。
+
+
+
+== 存取 BlueXP  警示
+
+* BlueXP  警示 URL 是什麼？ *對於 URL 、在瀏覽器中輸入： https://console.bluexp.netapp.com/["https://console.bluexp.netapp.com/"^] 以存取 BlueXP  主控台。
+
+* 您需要使用 BlueXP  警示的授權嗎？ *
+
+BlueXP  警示服務需要 NetApp ONTAP 9 10 或更高版本的授權。不需要在 BlueXP  數位錢包中輸入授權。
+
+您不需要擁有此服務的試用授權。
+
+* 如何啟用 BlueXP  警示？ *BlueXP  警示不需要任何啟用。警示選項會在 BlueXP  左側導覽中自動啟用。
+
+若要開始使用、當您使用 BlueXP  Connector 時、它會包含適當的服務功能。
+
+** BlueXP  警示是否適用於標準、受限和私人模式？ **此服務只能部署在 BlueXP  標準（公開）中。
+
+有關所有 BlueXP  服務中這些模式的說明，請參閱 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["BlueXP 部署模式"^]。
+
+** 如何處理存取權限？ **只有 BlueXP  組織管理員才能啟動 BlueXP  警示服務並探索工作負載（因為這涉及使用資源）。
+
+系統會根據登入的使用者對該 BlueXP  組織中叢集資源的存取權限、向他們顯示警示。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-netapp-accounts.html["瞭解 BlueXP  組織"]。
+
+
+
+== 檢視警示
+
+** 我需要等待多久才能收到警示？ **
+
+初次探索時、請等待最多 15 分鐘、之後最多 5 分鐘、才會顯示警示。這會因警示而異。
+
+** 爲什麼沒有 BlueXP  Connector ，我無法看到使用直接模式的 ONTAP 警報？ *
+
+BlueXP  警示僅可使用內部部署標準 BlueXP  Connector 。使用直接模式不會監控叢集、也不會顯示警示。
+
+** 為何警示會從「警示」清單頁面消失？ **
+
+警示功能會將部分警示保持在「作用中」狀態、並在達到計數器條件或達到一段時間後將其關閉。這會因警示而異。
+
+若要查看所有警示、請選取狀態欄篩選器、然後選取關閉選項。
+
+
+
+== 顯示資訊
+
+** 哪種裝置解析度最佳？ **BlueXP  警示的建議裝置解析度為 1920x1080 或更高。
+
+** 我應該使用哪個瀏覽器？ **任何現代化的瀏覽器都能正常運作。

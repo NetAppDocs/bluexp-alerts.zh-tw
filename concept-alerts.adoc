@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: concept-alerts.html 
+keywords: netapp, ontap, alert, capacity, performance, availability, security, protection, bluexp, bluexp alerts 
+summary: BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中與容量、效能、可用度及安全性相關的問題或潛在風險。使用此服務、您可以使用 NetApp 系統管理員深入瞭解詳細資料。 
+---
+= 瞭解 BlueXP  警示
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  警示是一項服務、可讓您使用標準 BlueXP  Connector 來檢視 NetApp 內部部署 ONTAP 環境中的問題或潛在風險。使用此服務、您可以使用 NetApp 系統管理員深入瞭解詳細資料。
+
+
+
+== BlueXP  警示功能
+
+BlueXP  警示服務可協助您隨時掌握 ONTAP 儲存環境中的風險或潛在風險。服務會顯示一些非 EMS 警示和部分 EMS 警示。BlueXP  警示服務提供以下嚴重性和影響領域的相關資訊：
+
+* * 嚴重性 * ：重大、警告、資訊
+* * 影響領域 * ：容量、效能、保護、可用度、安全性、組態
+
+
+
+TIP: BlueXP  UI 右上角的通知選項會監控 BlueXP  執行的作業狀態、以協助您識別需要解決的問題。您可以將這些通知傳送至您的電子郵件。「通知」選項不包含來自 BlueXP  警示服務的警示。
+
+
+
+== 使用 BlueXP  警示的好處
+
+BlueXP  警示提供下列優點：
+
+* 取得跨叢集的 ONTAP 儲存設備相關警示。
+* 以您用於其他服務的相同 BlueXP  UI 檢視警示。
+* 深入瞭解 ONTAP 叢集上的警示：從 BlueXP  警示開始、並在 NetApp 系統管理員中查看詳細資料。
+
+
+
+
+== 成本
+
+BlueXP  警示的完整版本可搭配 NetApp ONTAP 授權使用。
+
+
+
+== 授權
+
+BlueXP  警示服務需要 NetApp ONTAP 9 10 或更高版本的授權。
+
+您不需要擁有此服務的試用授權。
+
+此服務只能部署在 BlueXP  標準（公開）模式中。如需詳細資訊、請參閱 link:alerts-start-licenses.html["設定授權"]。
+
+
+
+== BlueXP  警示的運作方式
+
+BlueXP  警示服務是 BlueXP  的核心元件。BlueXP  警示服務會監控 ONTAP 叢集、並從 ONTAP 接收警示資料。
+
+BlueXP  警示僅適用於 BlueXP  SaaS 環境。本機連接器 UI 中無法使用此功能。
+
+
+
+== 支援的工作環境和資料來源
+
+使用 BlueXP  警示來檢查下列工作環境和資料來源中的問題。
+
+* 支援的工作環境 *
+
+支援內部部署的 ONTAP NAS 或 SAN 工作環境。
+
+目前不支援 Cloud Volumes ONTAP 工作環境。
+
+* 支援的資料來源 *
+
+此服務會針對 ONTAP 中發生的特定事件提供警示。它們是 EMS 和度量型警示的組合。

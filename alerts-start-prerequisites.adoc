@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-prerequisites.html 
+keywords: what are bluexp alerts requirements, bluexp alerts, alerts prerequisites 
+summary: 透過驗證您的環境、網路存取、登入和網頁瀏覽器的支援、開始使用 BlueXP  警示。 
+---
+= BlueXP  警示先決條件
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/get-started/
+
+
+[role="lead"]
+透過驗證營運環境的準備度、開始使用 BlueXP  警示。
+
+若要使用 BlueXP  警示、您需要具備下列先決條件：
+
+* ONTAP 9 10 及更新版本。內部部署工作環境必須在 BlueXP  畫布中探索。
++
+** 叢集管理 ONTAP 權限
++
+不需要在 BlueXP  數位錢包中輸入授權。
+
+
+
+* 在 BlueXP 中：
++
+** 具備 NetApp 內部部署 NAS 或 SAN 儲存設備的 BlueXP  工作環境
+** 內部部署區域的 BlueXP  Connector 必須在 BlueXP  中設定。請參閱 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["設定 Connector 的 BlueXP 文件"^]。
++
+如果從 BlueXP  Connector 移除叢集、則與該叢集相關的警示會保留 90 天。此外、如果您變更 Connector 、警示會與原始叢集和 Connector 保持關聯 90 天。如果您回到原始 Connector 、您將會再次看到這些警示。
+
+** BlueXP  組織、至少有一個作用中的 Connector 連線至內部部署 ONTAP 叢集。所有來源和工作環境都必須位於同一個 BlueXP  組織中。
+** 該組織的 BlueXP  使用者、其組織管理員 Privileges 可用於探索資源
+** https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]
+
+
+

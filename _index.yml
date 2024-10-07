@@ -1,0 +1,34 @@
+---
+indexpage:
+  title: BlueXP  警示文件
+  summary: BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中的問題或潛在風險。透過此服務、您可以使用 NetApp 系統管理員深入瞭解警示詳細資料、並檢視叢集資訊。
+  keywords: bluexp, ONTAP, alerts, system manager
+  lead: BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中與容量、效能、保護、可用度及安全性相關的問題或潛在風險。使用此服務、您可以深入瞭解警示詳細資料、並檢視連結至
+    NetApp 系統管理員的叢集資訊。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 瞭解 BlueXP  警示
+      url: "/concept-alerts.html"
+    - title: BlueXP  警示的新功能
+      url: "/whats-new.html"
+    - title: 先決條件
+      url: "/alerts-start-prerequisites.html"
+    - title: 快速入門
+      url: "/alerts-start-quick-start.html"
+    - title: 設定 BlueXP  警示
+      url: "/alerts-start-setup.html"
+    - title: 常見問題集
+      url: "/alerts-faq.html"
+  - title: 使用 BlueXP  警示
+    links:
+    - title: 使用 BlueXP  警示總覽
+      url: "/alerts-use-overview.html"
+    - title: 使用警示清單頁面檢視工作負載健全狀況
+      url: "/alerts-use-dashboard.html"
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: 雲端網路研討會
+      url: https://bluexp.netapp.com/events

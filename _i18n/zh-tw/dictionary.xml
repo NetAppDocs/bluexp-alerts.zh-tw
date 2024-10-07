@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="2b5bdeba5f79f2b3abb646ff6117409f" category="summary">如果您只是想要快速回答問題、這個 BlueXP  警示常見問題集就有幫助。</block>
+  <block id="32b879eb81c5fec76c0916feebd3fb10" category="doc">BlueXP  警示的常見問題集</block>
+  <block id="b1151aae9531d2f5e85d085e8878cea6" category="paragraph">如果您只是想要快速回答問題、這個常見問題集就能幫上忙。</block>
+  <block id="a8c8575084e78dec1feef2185d42ace0" category="section-title">存取 BlueXP  警示</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="942a771213d3b59ba27960f61d97b1ac" category="inline-link"><block ref="942a771213d3b59ba27960f61d97b1ac" category="inline-link-rx"></block></block>
+  <block id="55ef79a06a7e7fe64a8029a2b1878338" category="paragraph">* BlueXP  警示 URL 是什麼？ *對於 URL 、在瀏覽器中輸入：<block ref="6db7b50bf17b27cbede9f07c4fbc973e" category="inline-link-rx"></block> 以存取 BlueXP  主控台。</block>
+  <block id="8683b05c037dd1db3cf2bfe405ef7dcb" category="paragraph">* 您需要使用 BlueXP  警示的授權嗎？ *</block>
+  <block id="26f898e97d05308ed5ee96e521f200ba" category="paragraph">BlueXP  警示服務需要 NetApp ONTAP 9 10 或更高版本的授權。不需要在 BlueXP  數位錢包中輸入授權。</block>
+  <block id="81bff80842530f7549de75ff1e776d13" category="paragraph">您不需要擁有此服務的試用授權。</block>
+  <block id="f9507ad136d62c7581e6158c4b397052" category="paragraph">* 如何啟用 BlueXP  警示？ *BlueXP  警示不需要任何啟用。警示選項會在 BlueXP  左側導覽中自動啟用。</block>
+  <block id="31a9c7b2fd1481624edd9cc8c9bc24bf" category="paragraph">若要開始使用、當您使用 BlueXP  Connector 時、它會包含適當的服務功能。</block>
+  <block id="5af501fce9e9f8ae3c9924c77cc1af73" category="paragraph">** BlueXP  警示是否適用於標準、受限和私人模式？ **此服務只能部署在 BlueXP  標準（公開）中。</block>
+  <block id="2579d10862aa7770a64b058fb84ce858" category="inline-link">BlueXP 部署模式</block>
+  <block id="d29231e4316da436d079d40f2271015e" category="paragraph">有關所有 BlueXP  服務中這些模式的說明，請參閱<block ref="333027f5702e4d8adf36d6f2355422dc" category="inline-link-rx"></block>。</block>
+  <block id="3c706f4667e0a4dca6f27951b3ca453d" category="paragraph">** 如何處理存取權限？ **只有 BlueXP  組織管理員才能啟動 BlueXP  警示服務並探索工作負載（因為這涉及使用資源）。</block>
+  <block id="60c41e91fc5f41b53f3be81e8da85258" category="paragraph">系統會根據登入的使用者對該 BlueXP  組織中叢集資源的存取權限、向他們顯示警示。</block>
+  <block id="615c4ec007b617f4839a0e118d53a5d5" category="inline-link">瞭解 BlueXP  組織</block>
+  <block id="b8fc255b1f63ea4373c7f60f6db90a9e" category="paragraph"><block ref="8a700d4c2f8561523950a828b4a06394" category="inline-link-rx"></block>。</block>
+  <block id="428c58ec1c2902ea6bff31e38cae88ff" category="section-title">檢視警示</block>
+  <block id="6cc9a992642ce4690d105ac184a67ee8" category="paragraph">** 我需要等待多久才能收到警示？ **</block>
+  <block id="341e7ceedeb864cd8d795298ba6d763b" category="paragraph">初次探索時、請等待最多 15 分鐘、之後最多 5 分鐘、才會顯示警示。這會因警示而異。</block>
+  <block id="b1aba4574e3a3dd4e36f1b5a82395732" category="paragraph">** 爲什麼沒有 BlueXP  Connector ，我無法看到使用直接模式的 ONTAP 警報？ *</block>
+  <block id="c1e6cbc15d86cd682e0a70df120f1f40" category="paragraph">BlueXP  警示僅可使用內部部署標準 BlueXP  Connector 。使用直接模式不會監控叢集、也不會顯示警示。</block>
+  <block id="e3ff16e21f6082f8d57e23f84439cd04" category="paragraph">** 為何警示會從「警示」清單頁面消失？ **</block>
+  <block id="2b2c3c30eaf3e78010285ee747d45207" category="paragraph">警示功能會將部分警示保持在「作用中」狀態、並在達到計數器條件或達到一段時間後將其關閉。這會因警示而異。</block>
+  <block id="e0da34134a1b328f6ccb76d662397ec6" category="paragraph">若要查看所有警示、請選取狀態欄篩選器、然後選取關閉選項。</block>
+  <block id="f39f0edd7fe5e18fbb584c564afa9b8c" category="section-title">顯示資訊</block>
+  <block id="f5c72ca5c170c91c777ed385856a260c" category="paragraph">** 哪種裝置解析度最佳？ **BlueXP  警示的建議裝置解析度為 1920x1080 或更高。</block>
+  <block id="036b094f4c535bf7c0faf82885715824" category="paragraph">** 我應該使用哪個瀏覽器？ **任何現代化的瀏覽器都能正常運作。</block>
+  <block id="0e0b4a7ebda3db1380237e8147a2c519" category="summary">存取 BlueXP  中的服務、開始使用 BlueXP  警示。</block>
+  <block id="3d8d9b14a39d1d1ee6478a1ede0bd425" category="doc">存取 BlueXP  警示</block>
+  <block id="1bb4b060b0fad19e3250036e3363e9e4" category="paragraph">您可以使用 NetApp BlueXP  登入 BlueXP  警示服務。</block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link">深入瞭解登入</block>
+  <block id="137f465ff17e307c6d821b8f1d37049b" category="paragraph">若要登入 BlueXP  、您可以使用 NetApp 支援網站認證、或使用電子郵件和密碼登入 NetApp 雲端。<block ref="83012c4a40bb3321733997744c83daa9" category="inline-link-rx"></block>。</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link">BlueXP主控台</block>
+  <block id="d2dadcd80abef33f02b8317102f819f0" category="list-text">開啟網頁瀏覽器並前往<block ref="4d9841a08a6f1c082f5ba73c5d87fcc1" category="inline-link-rx"></block>。</block>
+  <block id="753e3c2055278365db83b605f29d4860" category="paragraph">出現 NetApp BlueXP 登入頁面。</block>
+  <block id="ad84736d27b7f84414783598f4ffd0d9" category="list-text">登入 BlueXP 。</block>
+  <block id="dcd77b9cd0331a13d8ad657d4882a56c" category="list-text">從 BlueXP  左側導航欄中，選擇 * Monitoring * &gt; * Alerts * （警報 * ）。</block>
+  <block id="b80c68e1a6cb6ff2b0c33328d4c4aa30" category="paragraph">「警示」清單頁面隨即出現。</block>
+  <block id="f4b2cfc6ddef927318d045f16b38d151" category="inline-image-macro">BlueXP  警示清單頁面</block>
+  <block id="d87fc992b644e670a1921fe329ede50e" category="paragraph"><block ref="d87fc992b644e670a1921fe329ede50e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="11d306a018db7bbf171fd19cc4154cbf" category="summary">透過驗證您的環境、網路存取、登入和網頁瀏覽器的支援、開始使用 BlueXP  警示。</block>
+  <block id="b2262afa0ab9297bc1b2d6dbf138f82d" category="doc">BlueXP  警示先決條件</block>
+  <block id="3caec570843a9194e2860c2d8539d5ea" category="paragraph">透過驗證營運環境的準備度、開始使用 BlueXP  警示。</block>
+  <block id="ba68c7cc1a747cc5439c9eb2bde3ea59" category="paragraph">若要使用 BlueXP  警示、您需要具備下列先決條件：</block>
+  <block id="de90e07882ac475838e6cf0364872fbb" category="list-text">ONTAP 9 10 及更新版本。內部部署工作環境必須在 BlueXP  畫布中探索。</block>
+  <block id="7226a116fcbbcf04521e1a358b285ccb" category="list-text">叢集管理 ONTAP 權限</block>
+  <block id="75694aa3ec9a17968423c0c3f4b2b130" category="paragraph">不需要在 BlueXP  數位錢包中輸入授權。</block>
+  <block id="7fc964519860ed011389afb142e2370e" category="list-text">在 BlueXP 中：</block>
+  <block id="4a43854b7fbdafceb4c91e1f94a96618" category="list-text">具備 NetApp 內部部署 NAS 或 SAN 儲存設備的 BlueXP  工作環境</block>
+  <block id="617601bf744d089a872f17b09e5451b5" category="inline-link">設定 Connector 的 BlueXP 文件</block>
+  <block id="bd18773fd4ffc37c585826fe78739a24" category="list-text">內部部署區域的 BlueXP  Connector 必須在 BlueXP  中設定。請參閱<block ref="1e8f43557ce3193941a1e47864603ca9" category="inline-link-rx"></block>。</block>
+  <block id="be3f6034d96d78022d89fb9efa3bb363" category="paragraph">如果從 BlueXP  Connector 移除叢集、則與該叢集相關的警示會保留 90 天。此外、如果您變更 Connector 、警示會與原始叢集和 Connector 保持關聯 90 天。如果您回到原始 Connector 、您將會再次看到這些警示。</block>
+  <block id="d7fed6b49e01473714365140fa2e892c" category="list-text">BlueXP  組織、至少有一個作用中的 Connector 連線至內部部署 ONTAP 叢集。所有來源和工作環境都必須位於同一個 BlueXP  組織中。</block>
+  <block id="a66b5f7e17e36a58b03ec77382eb6743" category="list-text">該組織的 BlueXP  使用者、其組織管理員 Privileges 可用於探索資源</block>
+  <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">標準 BlueXP 需求</block>
+  <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
+  <block id="e9b7b72938a53a4398858e7a161efbfb" category="summary">只需幾個步驟就能開始使用 NetApp BlueXP  警示服務。</block>
+  <block id="4693ecf07b719f1a075e0e08b806e1d6" category="doc">BlueXP  警示快速入門</block>
+  <block id="6d3b1e3c658d935abf3a5e7434bd4c1b" category="paragraph">以下概述開始使用 BlueXP  警示所需的步驟。每個步驟中的連結都會帶您前往提供更多詳細資料的頁面。</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 審查先決條件</block>
+  <block id="d73fd850784e1d8dbda69ab3ca51e7cf" category="inline-link-macro">確保您的環境符合這些要求</block>
+  <block id="5d0bd3e6409d405ee17df2011d3575e5" category="paragraph"><block ref="b2b5204beec9643a42fc982599cdc423" category="inline-link-macro-rx"></block>。</block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
+  <block id="258a9b1dca773d86d57cbd89bc118944" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block>設定警示服務</block>
+  <block id="bdd0311a659415960a895cb7120b8f36" category="inline-link-macro">在 BlueXP 中設定 Connector</block>
+  <block id="e87e1ad9ec440dcaab1af634489bb79d" category="paragraph"><block ref="e6d5a25732d91601e1ac8c729eb91ea2" category="inline-link-macro-rx"></block>。</block>
+  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
+  <block id="fb35cdd7029fec15aadbdddd879fa161" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 接下來呢？</block>
+  <block id="0d5e44db30a371573d3409dc5db80551" category="paragraph">設定服務之後、接下來您可以做些什麼。</block>
+  <block id="a68cc2b6c1c2c8b9e9f66b53fa448022" category="inline-link-macro">在「警示」清單頁面上檢視儲存問題和潛在風險</block>
+  <block id="dd0992661d3a920b16a7c2795b9cd366" category="list-text"><block ref="24e8eb073a02ee555a5d57d98ab7c836" category="inline-link-macro-rx"></block>。</block>
+  <block id="579d60d61ce2f9d71ba59082012dead5" category="inline-link-macro">在 System Manager 中檢視警示詳細資料</block>
+  <block id="d94cf384f933380c78e093e040f609eb" category="list-text"><block ref="3d6f3cd0de5abac441f097288a1f7790" category="inline-link-macro-rx"></block>。</block>
+  <block id="5915cf352c4b3db1b090b435f74ebbf7" category="summary">若要使用 BlueXP  警示、請執行幾個步驟加以設定。</block>
+  <block id="ac042029b29c3082b76187f091b8b233" category="doc">設定 BlueXP  警示</block>
+  <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">先決條件</block>
+  <block id="20f8d4df820ee3c6f7d2384adc35406f" category="paragraph">開始之前、請先檢閱<block ref="b8a12953eaed5434208690571b21dc3b" category="inline-link-macro-rx"></block>以確保您的環境已準備就緒。</block>
+  <block id="26bb95e43b859cab3de780adc1ebf126" category="inline-link">標準 BlueXP 需求</block>
+  <block id="fcb6265d7669f5374c0d92fc1cdf5b50" category="paragraph">複習<block ref="2954ccba2c34ed9319cfb7bdfb096d90" category="inline-link-rx"></block>。</block>
+  <block id="36ac020ea992572fe71a4d8e25c3367c" category="section-title">存取叢集資源</block>
+  <block id="039ca501870df985c68b98df5431fa65" category="paragraph">若要檢視警示、登入的使用者必須是 BlueXP  組織的一部分、且應具有所需的叢集資源存取權。</block>
+  <block id="a5085066220b6bc77291e8a3ba481c5a" category="section-title">建立 BlueXP Connector</block>
+  <block id="22c759b21dd96fd9c112561c718a0808" category="paragraph">您應聯絡 NetApp 銷售代表、試用或使用本服務。然後、當您使用 BlueXP  Connector 時、它會包含警示服務的適當功能。</block>
+  <block id="780faaa43a4865ecb4711d9dd7329a52" category="inline-link">如何建立 BlueXP Connector</block>
+  <block id="41c2dbad4db714d9e8ccd5fdc1897747" category="paragraph">要在使用服務之前在 BlueXP  中創建連接器，請參閱說明的 BlueXP  文檔<block ref="32b465f89042a610ea5ceeabf276817a" category="inline-link-rx"></block>。</block>
+  <block id="3d6d3177ff7ea69049f4995141770c7f" category="paragraph">設定 Connector 並新增工作環境之後、請等待約 15 分鐘、等待初始探索。</block>
+  <block id="195a0f59ca144ee9fd9cc1a8049876e1" category="summary">透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 BlueXP  系統管理員的詳細資料。</block>
+  <block id="ef254d2341e271918241f2d6a1999fa1" category="doc">檢視 ONTAP 儲存環境中的警示詳細資料</block>
+  <block id="ecd629c044becad9a5d589bf2ce76f50" category="paragraph">透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解詳細資料。</block>
+  <block id="9f64c529078a13eebc43993d1ac578d4" category="section-title">檢視警示詳細資料</block>
+  <block id="dd29728715f5ca672672acc21b977d6a" category="list-text">從警示清單頁面中、選取警示。</block>
+  <block id="098e423bd0ee32c364dc743fff392233" category="inline-image-macro">警示詳細資料</block>
+  <block id="6d6b711c0023f5df6869f9738b247408" category="paragraph"><block ref="6d6b711c0023f5df6869f9738b247408" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e343346ee75f85e1816cdd01ca56792d" category="list-text">向下捲動以尋找建議的修正行動。</block>
+  <block id="eb8303fe9491419d4ead82bfa9608f89" category="list-text">向下捲動以尋找與警示所在物件相關的其他警示。</block>
+  <block id="ae1f9cff7e71c809803a6163b385b12c" category="section-title">在 BlueXP  系統管理員中檢視叢集的詳細資料</block>
+  <block id="35b395a0db37565fc4e5873d0e39269f" category="list-text">在警示中、按一下頁面頂端的叢集名稱。</block>
+  <block id="5bdd3a1d76a98c1ad8436adb2bc5d4df" category="paragraph">BlueXP  系統管理員現在會顯示叢集的相關資訊。</block>
+  <block id="44fb0de1beabcbb929ab5a8c7a682a82" category="inline-image-macro">顯示叢集資訊的 BlueXP  系統管理員</block>
+  <block id="f4756e753473f1c27ad6091d356f962d" category="paragraph"><block ref="f4756e753473f1c27ad6091d356f962d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e79231cbbb45803a3389e7fb863313c6" category="summary">BlueXP  警示服務提供有關 ONTAP 環境健全狀況的概覽資訊。您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、判斷可用度、以及識別安全風險。</block>
+  <block id="2eb867d8ce3791fb94cfdab8c6ac78a0" category="doc">使用「警示」清單頁面檢視 ONTAP 儲存設備的潛在風險</block>
+  <block id="6e2e3b48eeb17e8c0e79ae15b55e3fdf" category="paragraph">BlueXP  警示服務提供有關 ONTAP 環境中潛在風險的概覽資訊。您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、判斷可用度、以及識別安全風險。</block>
+  <block id="48a106dde82734a311781b925e0931ac" category="paragraph">BlueXP  警示服務提供以下嚴重性和影響領域的相關資訊：</block>
+  <block id="a3463ce74ef6d3d7aafb60fc0726d9ce" category="list-text">* 嚴重性 * ：重大、警告、資訊</block>
+  <block id="1c5882efccfb1ce6046da852a8583eb8" category="list-text">* 影響領域 * ：容量、效能、可用度、保護、安全性、組態</block>
+  <block id="ac4b7d569a38793a92acd5f442401804" category="section-title">您可能會看到的警示</block>
+  <block id="77fa82b75eba65604d710499da0ee322" category="paragraph">以下是服務顯示的一些警示。</block>
+  <block id="f3a8e5c47b211607abaf68b616a07ed1" category="paragraph">EMS 嚴重性會以下列方式對應至 BlueXP  警示服務嚴重性：</block>
+  <block id="91c761791147d91928659247c271d819" category="cell">EMS 警示嚴重性：</block>
+  <block id="3b293abab1ef3ff087b479cd6c0aa5ab" category="cell">BlueXP  警示嚴重性：</block>
+  <block id="a06259142ffb0ecbfe14eae4658e10fd" category="cell">警示或緊急</block>
+  <block id="7e85bcb66fb9a809d5ab4f62a8b8bea8" category="cell">關鍵</block>
+  <block id="cb5e100e5a9a3e7f6d1fd97512215282" category="cell">錯誤</block>
+  <block id="6adf97f83acf6453d4a6a4b1070f3754" category="cell">無</block>
+  <block id="28d0edd045e05cf5af64e35ae0c4c6ef" category="cell">低</block>
+  <block id="7b83d3f08fa392b79e3f553b585971cd" category="cell">警告</block>
+  <block id="efd2af60c8501931cb9c736b5ad74f65" category="cell">注意</block>
+  <block id="1f48d99cd04299352fb1cfc658d86b35" category="cell">資訊</block>
+  <block id="426b60b96f19689fe0d9002d76f4ecfa" category="example-title">警示清單</block>
+  <block id="d712d7c120eeb1773e822680ae05e1e6" category="paragraph">嚴重程度警示：</block>
+  <block id="07924c9f11edc6dce661034be95eea23" category="list-text">Aggregate 狀態不在線上</block>
+  <block id="cd8715e2c61c160919c471d458f34912" category="list-text">磁碟故障</block>
+  <block id="7fd2d7dd529b8399307eba295b61ba41" category="list-text">SnapMirror 延遲時間很長</block>
+  <block id="86b6c911199fbbc3f1eb9bb48dbeac84" category="list-text">Volume 狀態為離線</block>
+  <block id="251dfb413e6706021869a69f911a1722" category="list-text">Volume 已使用百分比違規</block>
+  <block id="6dfc7a1d3e7177289844685485b60333" category="paragraph">EMS 警示：</block>
+  <block id="68312e4565de2800f938b104810df85e" category="list-text">防毒伺服器忙碌中</block>
+  <block id="67138763af94cb16b8731cb643c19d09" category="list-text">AWS 認證未初始化</block>
+  <block id="3294e7fb98db2e274fe298085409b43d" category="list-text">無法連線至雲端層</block>
+  <block id="c368f13ac2010057caf5a5f737a1ff11" category="list-text">磁碟故障</block>
+  <block id="68e372a9533db9f1009167981ec6816a" category="list-text">發現磁碟櫃電源供應器</block>
+  <block id="cd15b8dfe06196bb36c3f01bf61bb243" category="list-text">磁碟櫃電源供應器已移除</block>
+  <block id="888cc30ee74334fe6bcc7da9683a9548" category="list-text">FabricPool 鏡像複寫重新同步完成</block>
+  <block id="b3f64f74cfa68b9d9273714d12abde1f" category="list-text">幾乎達到 FabricPool 空間使用量限制</block>
+  <block id="1062a5c87c81d5399b321535a61500b2" category="list-text">已達到 FabricPool 空間使用量限制</block>
+  <block id="17705794a65b95a1c8b74ac2210b8965" category="list-text">已超過 FC 目標連接埠命令</block>
+  <block id="b6556b04e20f707436c67a1a56576275" category="list-text">儲存池的 GiveBack 失敗</block>
+  <block id="e53dabd176c531c7832b7012ce67b097" category="list-text">HA 互連中斷</block>
+  <block id="c6ab7e74ccdd427238b6e1efb492170f" category="list-text">LUN 已損毀</block>
+  <block id="3abb2131a440928b050c2e8edf69401d" category="list-text">LUN 離線</block>
+  <block id="a8fb2d4668615c99a8d059affbe6cd22" category="list-text">主裝置風扇故障</block>
+  <block id="d68566c5b4b122118fbbd417a4264980" category="list-text">主裝置風扇處於警告狀態</block>
+  <block id="623b69fd62d13218cecda606713b9a46" category="list-text">已超過每位使用者的工作階段上限</block>
+  <block id="62c9b4a4bb67fa65a7daa64a38e92bd7" category="list-text">超過每個檔案開啟的最大時間</block>
+  <block id="6a85357206771eef22386a802fa758d6" category="list-text">MetroCluster 自動非計畫性切換已停用</block>
+  <block id="7c13e07c8bd8e6ff962c7cafd1d1a6dc" category="list-text">MetroCluster 監控</block>
+  <block id="e9c41a5d661c53796c05bc2c50b34f7a" category="list-text">NetBIOS 名稱衝突</block>
+  <block id="b9f7c1d1c6c8720b64e393cff38635a5" category="list-text">NFSv4 集區疼痛已耗盡</block>
+  <block id="a662add42742c1fa3d8a2948ec679396" category="list-text">節點緊急情況</block>
+  <block id="673c9cb749a6c87d90677e56540016c5" category="list-text">節點根磁碟區空間不足</block>
+  <block id="74f22088830d5b73900d650afa41b6b6" category="list-text">不存在的管理共用區</block>
+  <block id="642ca130535e44c6a6c23b26ff3e201f" category="list-text">無回應的防毒伺服器</block>
+  <block id="c2ef4ca2490676426d41004ed902e321" category="list-text">無已登錄的掃描引擎</block>
+  <block id="810c9aeab7ad4d2e0b8d494a3c0fd4ac" category="list-text">無 VScan 連線</block>
+  <block id="688c4dedde96dd6405687b605a738c6c" category="list-text">NVMe 命名空間已損毀</block>
+  <block id="e0fd74d205a2c0efeb1aa85ab995741f" category="list-text">NVMe 命名空間離線</block>
+  <block id="ad0de762f84c09735c0f51f22e1b0751" category="list-text">NVMe 命名空間在線上</block>
+  <block id="ff7b07c4a088c2e6514ed20c977afebc" category="list-text">NVMe 授權寬限期作用中</block>
+  <block id="6911852fee5f58482b977dfa9e8b5a11" category="list-text">NVMe 授權寬限期已過期</block>
+  <block id="34fc115596c046ddfb198b1a0918c528" category="list-text">NVMe 授權寬限期開始</block>
+  <block id="0af93bd4e12e413bd4f75779ca5fe3fc" category="list-text">NVRAM 電池電量不足</block>
+  <block id="13bd76a0c80421e4213cd354adec1f28" category="list-text">物件存放區主機無法解析</block>
+  <block id="b07ff64f0fd66d1ca0444e966351a716" category="list-text">物件存放區叢集間 LIF 已關閉</block>
+  <block id="14b95f6864656d1432576256c773fb6c" category="list-text">物件存放區簽章不符</block>
+  <block id="4b7fe47946422f99ed2eff8b286d5d5a" category="list-text">QoS 監控記憶體已用盡</block>
+  <block id="42f9362e8f5c9f627583fcae61bb3009" category="list-text">偵測到勒索軟體活動</block>
+  <block id="5a78f645e146f5884b1aeddc8a377465" category="list-text">儲存池重新配置失敗</block>
+  <block id="900dfdc7aa5e2e4d21e8e383a7bc5695" category="list-text">新增 ONTAP Mediator</block>
+  <block id="117612d2385e596d10a53e879fd9c6d4" category="list-text">ONTAP Mediator 無法存取</block>
+  <block id="984ffe90674a334608f6dc29eea93d0f" category="list-text">ONTAP Mediator 無法連線</block>
+  <block id="b13dc84e8bf07544983a0f1bcc9bacfd" category="list-text">ONTAP Mediator 已移除</block>
+  <block id="7ca3fa8cbb818f2b752b180a8f6578c8" category="list-text">readdir 逾時</block>
+  <block id="74cd200ec793ce967454bab4df21e86f" category="list-text">SAN 「雙主動」狀態已變更</block>
+  <block id="6d298824911962a6173e9856bea08969" category="list-text">服務處理器心跳遺失</block>
+  <block id="e31c7c626929cffcd19eb25ea3d48bcf" category="list-text">服務處理器心跳停止</block>
+  <block id="9e893917a086c9211a69e94cfdbc6de7" category="list-text">服務處理器離線</block>
+  <block id="2eefb727adf8f00ed6c0c06f0de04bee" category="list-text">服務處理器尚未設定</block>
+  <block id="fa95406e3f6be61a90c80d07495392ab" category="list-text">陰影複製失敗</block>
+  <block id="2e6c8588eca8579ea3d901edba5187c5" category="list-text">FC 目標介面卡中的 SFP 耗電量低</block>
+  <block id="e3f46f77f673c669dbf7591bf3714534" category="list-text">FC 目標介面卡中的 SFP 傳輸低功率</block>
+  <block id="87bcf69ffc1341c3e738e6f5f0829b89" category="list-text">機櫃風扇故障</block>
+  <block id="129eccbd447ee5ec6db178923e1e891b" category="list-text">SMBC CA 憑證已過期</block>
+  <block id="542f0de59690111da4c9cfe4b7839228" category="list-text">SMBC CA 憑證即將過期</block>
+  <block id="fcfb955a42ea6727cf9655dfcbc95b29" category="list-text">SMBC 用戶端憑證已過期</block>
+  <block id="6ef327b672c485123c9bcc462d256668" category="list-text">SMBC 用戶端憑證即將過期</block>
+  <block id="2cb36dc8e68ee54aec697f86f2d4b12d" category="list-text">SMBC 關係不同步</block>
+  <block id="8a892c6a7fdca0a74894c6fd035d9f73" category="list-text">SMBC 伺服器憑證已過期</block>
+  <block id="11646092abadafa9bf54db871c93d36a" category="list-text">SMBC 伺服器憑證即將過期</block>
+  <block id="357da3c15f5b4166ed1b9756ef219e71" category="list-text">SnapMirror 關係不同步</block>
+  <block id="ae68c6c4c6cae7459282877916f7239d" category="list-text">儲存交換器電源供應器故障</block>
+  <block id="5b18b77cd9a23623241f767e7e3dda1f" category="list-text">儲存 VM 反勒索軟體監控</block>
+  <block id="f227b1f80874035c71dc8b251f697d06" category="list-text">儲存 VM 停止成功</block>
+  <block id="4fc7fee1a16781be47a8fcb65bbf6c32" category="list-text">由於主裝置風扇故障、系統無法運作</block>
+  <block id="df9077cd90f3562314293fe500b45638" category="list-text">CIFS 驗證太多</block>
+  <block id="211ffae8cf271f4086db6aa84fe1dcff" category="list-text">未指派的磁碟</block>
+  <block id="5d20854d3722e028d9bf19a7825780ec" category="list-text">未經授權的使用者存取管理共用</block>
+  <block id="fd336287253648f0aff675505ba26228" category="list-text">偵測到病毒</block>
+  <block id="ffeaca4f7d6a46d7049fc8e2b7f0b27b" category="list-text">Volume 防勒索軟體監控</block>
+  <block id="787c13bd5678ea2fd13caed9c3d7f793" category="list-text">Volume 自動調整大小成功</block>
+  <block id="70e7847ce31f3a07ce7dbe2cac0c55bf" category="list-text">Volume離線</block>
+  <block id="d963b659cc2c03f1af4ded1f17740e4f" category="list-text">Volume 受限</block>
+  <block id="e60fdbc6a294498300f49aa127139a42" category="inline-link">System Manager 可深入瞭解容量、安全性和組態問題</block>
+  <block id="aa234240d0a0cda8353d19805476de1b" category="paragraph">如需 ONTAP 警示的詳細資訊、請參閱 ONTAP 文件和 System Manager 深入資訊、網址為：<block ref="b77ce041c81545bf6290dc1fe3f366a7" category="inline-link-rx"></block>。</block>
+  <block id="62ee36e144821eacbed3c81b0f0497c8" category="section-title">檢視 ONTAP 儲存問題</block>
+  <block id="069f2dbaf4ab6cd3493075c1ed095e12" category="paragraph">探索之後、「警示」清單頁面會顯示 ONTAP 環境中的警示清單。</block>
+  <block id="c4e8a37d21324f2e04c75f3371485f1f" category="paragraph">發生事件與顯示事件的 BlueXP  警示之間可能會有延遲。</block>
+  <block id="edf8cb82991154f2e9d942bdccaeef0a" category="list-text">從「警示」清單頁面、您可以檢視及執行下列任何一項：</block>
+  <block id="688a1396b578f03d228e2eebc7a41cae" category="list-text">按一下欄的向上或向下箭頭、變更排序順序。</block>
+  <block id="b7fb9d0113e25b01750477e170f85124" category="list-text">變更欄中的篩選條件、只顯示您想要的資訊。</block>
+  <block id="2003e55a5e25452cfa4bd9a58d57b351" category="admonition">例如、您可能只想查看與容量相關的警示。若要這麼做、請按一下「影響區域」欄的篩選圖示、選取 * 容量 * 、然後選取 * 套用 * 。</block>
+  <block id="0f7a9a7a2a6073b4490fabb339f41057" category="inline-image-macro">顯示影響區域篩選器的警示頁面</block>
+  <block id="4df898e17ef9f4529b1a38042a44e337" category="paragraph"><block ref="4df898e17ef9f4529b1a38042a44e337" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="965f7cc3cce0fc10d5fd67a7338c6f10" category="list-text">下載內含警示資訊的 CSV 檔案。</block>
+  <block id="b2bb87d2f0e54538ffcdb7880272c3c0" category="paragraph">您最多可以下載 1000 個警示。檔案會根據所設定的篩選條件來包含資料。</block>
+  <block id="4911a76281812d9019d7ede766d4ea02" category="list-text">選取警示並深入瞭解該叢集的警示詳細資料。請參閱。 <block ref="b1ec3ab83585d2abf1c96eb1dde7ca35" category="inline-link-macro-rx"></block></block>
+  <block id="af5d0c21da9f42662eda147aaaa3511a" category="summary">使用 BlueXP  警示、您可以檢視工作負載健全狀況並保護工作負載。</block>
+  <block id="6ba57e842cdd79e47a1b460479b59e4e" category="doc">使用 BlueXP  警示</block>
+  <block id="9e8c1c9ce04126b867bd0693e89863b1" category="paragraph">您可以使用 BlueXP  警示來檢視儲存問題、並透過直接連至系統管理員的連結查看詳細資料。</block>
+  <block id="80fa54cf61509d05cee17d35aa111523" category="inline-link-macro">從「警示」清單頁面檢視儲存問題或潛在風險</block>
+  <block id="bada944ff97ccc6bdb03a0eefe48c7b0" category="list-text"><block ref="100690e5bc3f66329368008c6eec575d" category="inline-link-macro-rx"></block>。</block>
+  <block id="7bd1999eaf2368f9b8f1dd868f9e9d4d" category="inline-link-macro">檢視在 System Manager 中連結的警示詳細資料</block>
+  <block id="71abcd292cc325c2b4ac5f4d9147224d" category="list-text"><block ref="71abcd292cc325c2b4ac5f4d9147224d" category="inline-link-macro-rx"></block></block>
+  <block id="601af684c92efdad54a57f36be1e84f2" category="summary">BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中與容量、效能、可用度及安全性相關的問題或潛在風險。使用此服務、您可以使用 NetApp 系統管理員深入瞭解詳細資料。</block>
+  <block id="d0f2765e5de3103a5c432ec160dff29f" category="doc">瞭解 BlueXP  警示</block>
+  <block id="6babf54700fe3eb9bf3ca54fc0d1fb18" category="paragraph">BlueXP  警示是一項服務、可讓您使用標準 BlueXP  Connector 來檢視 NetApp 內部部署 ONTAP 環境中的問題或潛在風險。使用此服務、您可以使用 NetApp 系統管理員深入瞭解詳細資料。</block>
+  <block id="a9dc86219b3c5f9f2b66e9d377f29a7f" category="section-title">BlueXP  警示功能</block>
+  <block id="c455bdd92f069a5115cf088b2dabcacc" category="paragraph">BlueXP  警示服務可協助您隨時掌握 ONTAP 儲存環境中的風險或潛在風險。服務會顯示一些非 EMS 警示和部分 EMS 警示。BlueXP  警示服務提供以下嚴重性和影響領域的相關資訊：</block>
+  <block id="6f8378cd5e88ebcc5f99f344c6d22de6" category="list-text">* 影響領域 * ：容量、效能、保護、可用度、安全性、組態</block>
+  <block id="3c62cdeee21c6a2170aedc780bd7fc03" category="admonition">BlueXP  UI 右上角的通知選項會監控 BlueXP  執行的作業狀態、以協助您識別需要解決的問題。您可以將這些通知傳送至您的電子郵件。「通知」選項不包含來自 BlueXP  警示服務的警示。</block>
+  <block id="b3bfdc18d5a19085c6964cb4558c89b5" category="section-title">使用 BlueXP  警示的好處</block>
+  <block id="89658a5893663786a5a3b0365a186901" category="paragraph">BlueXP  警示提供下列優點：</block>
+  <block id="f7e430f46106032cfbe3b93ecd7ffbf8" category="list-text">取得跨叢集的 ONTAP 儲存設備相關警示。</block>
+  <block id="c036c9564723f87e6682ea3f542c999a" category="list-text">以您用於其他服務的相同 BlueXP  UI 檢視警示。</block>
+  <block id="811073dacb65f03c311b21e5d5357881" category="list-text">深入瞭解 ONTAP 叢集上的警示：從 BlueXP  警示開始、並在 NetApp 系統管理員中查看詳細資料。</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
+  <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">BlueXP  警示的完整版本可搭配 NetApp ONTAP 授權使用。</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">授權</block>
+  <block id="1b083639d38de1b116aea6c5558968ec" category="paragraph">BlueXP  警示服務需要 NetApp ONTAP 9 10 或更高版本的授權。</block>
+  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">設定授權</block>
+  <block id="d69945d07ffe69d68b278fa3f6ee11ac" category="paragraph">此服務只能部署在 BlueXP  標準（公開）模式中。如需詳細資訊、請參閱 <block ref="271bc4c83b3d27b2a7fc60eb23418118" category="inline-link-macro-rx"></block>。</block>
+  <block id="55a90d444e30ddc01cd8a8da27cd9018" category="section-title">BlueXP  警示的運作方式</block>
+  <block id="3e552726fea4952e3fd397f2cbf69243" category="paragraph">BlueXP  警示服務是 BlueXP  的核心元件。BlueXP  警示服務會監控 ONTAP 叢集、並從 ONTAP 接收警示資料。</block>
+  <block id="78097856f6f945c9619179338ebbf597" category="paragraph">BlueXP  警示僅適用於 BlueXP  SaaS 環境。本機連接器 UI 中無法使用此功能。</block>
+  <block id="53fa8df095671f897c8cbcd13ce182b1" category="section-title">支援的工作環境和資料來源</block>
+  <block id="3a3da3adbe7a7e42b69c675297f957dd" category="paragraph">使用 BlueXP  警示來檢查下列工作環境和資料來源中的問題。</block>
+  <block id="aeb2662989e88ee6d23e4231af6bb329" category="paragraph">* 支援的工作環境 *</block>
+  <block id="37d5e573f87a34df6bc471978f6feabf" category="paragraph">支援內部部署的 ONTAP NAS 或 SAN 工作環境。</block>
+  <block id="8c3fbb6cc8eb009073e41422c8d38207" category="paragraph">目前不支援 Cloud Volumes ONTAP 工作環境。</block>
+  <block id="7133c14b211d52731ad6f21655c0ec9b" category="paragraph">* 支援的資料來源 *</block>
+  <block id="d942794721fac44adaf190fc08c9e8a7" category="paragraph">此服務會針對 ONTAP 中發生的特定事件提供警示。它們是 EMS 和度量型警示的組合。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律聲明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律聲明提供版權聲明、商標、專利等存取權限。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版權</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商標</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 標誌及 NetApp 商標頁面上列出的標章均為 NetApp 、 Inc. 的商標。其他公司與產品名稱可能為其各自所有者的商標。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">專利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">如需最新的 NetApp 擁有專利清單、請參閱：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隱私權政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
+  <block id="1c8c9500f35cf575beaf6a28dc62ccf5" category="summary">瞭解 BlueXP  警示的新功能。</block>
+  <block id="30379f2eca857be65607378fb82b2e76" category="doc">版本資訊： BlueXP  警示保護的新功能</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024 年 10 月 7 日</block>
+  <block id="32981b0c6558eec412787b4c28c9f7a5" category="paragraph">此 BlueXP  警示的初始版本包含下列功能：</block>
+  <block id="d75b9d6acc7b490b5df3a8425ace3e5a" category="list-text">* BlueXP  警示清單頁面 * ：您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、並識別安全性風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。</block>
+  <block id="335c0f5b63e966d180738ce07c85dc3f" category="list-text">* 警示詳細資料 * ：您可以深入瞭解警示詳細資料並尋找建議。</block>
+  <block id="963a0580f34d0876630a188f398484de" category="list-text">* 檢視連結至系統管理員 * 的叢集詳細資料：透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 NetApp 系統管理員的詳細資料。</block>
+  <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block>。</block>
+  <block id="8a158ef2e09da6cbce36c63b2be71df9" category="sidebar">BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中與容量、效能、保護、可用度及安全性相關的問題或潛在風險。使用此服務、您可以深入瞭解警示詳細資料、並檢視連結至 NetApp 系統管理員的叢集資訊。</block>
+  <block id="65bb7ee15d3b1e07670d846d217c47d4" category="sidebar">BlueXP  警示文件</block>
+  <block id="9b28031891e79a06f16c64fa003290dd" category="sidebar">BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中的問題或潛在風險。透過此服務、您可以使用 NetApp 系統管理員深入瞭解警示詳細資料、並檢視叢集資訊。</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
+  <block id="0008349dbba5d63a11fcca4bd3de0c2d" category="sidebar">BlueXP  警示的新功能</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="sidebar">先決條件</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="sidebar">快速入門</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常見問題集</block>
+  <block id="719b574fab4bde1fa0258a23a1bce1bf" category="sidebar">使用 BlueXP  警示總覽</block>
+  <block id="f1d6603348ae1d768d44db0a4ef65c7c" category="sidebar">使用警示清單頁面檢視工作負載健全狀況</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="a5f2ae7ab44d436991bfcc0230947d07" category="sidebar">BlueXP  警示文件</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
+  <block id="17b76c30a93a18ec82fdbf45ed64d83a" category="sidebar">檢視 ONTAP 儲存設備的潛在風險</block>
+  <block id="167683e364859c21a89f3dbb8bbd29b4" category="sidebar">檢視儲存環境中的警示</block>
+</blocks>

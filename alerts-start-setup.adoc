@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: alerts-start-setup.html 
+keywords: bluexp, alerts, ontap, netapp 
+summary: 若要使用 BlueXP  警示、請執行幾個步驟加以設定。 
+---
+= 設定 BlueXP  警示
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+若要使用 BlueXP  警示、請執行幾個步驟加以設定。
+
+開始之前、請先檢閱link:alerts-start-prerequisites.html["先決條件"]以確保您的環境已準備就緒。
+
+複習 https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["標準 BlueXP 需求"^]。
+
+
+
+== 存取叢集資源
+
+若要檢視警示、登入的使用者必須是 BlueXP  組織的一部分、且應具有所需的叢集資源存取權。
+
+
+
+== 建立 BlueXP Connector
+
+您應聯絡 NetApp 銷售代表、試用或使用本服務。然後、當您使用 BlueXP  Connector 時、它會包含警示服務的適當功能。
+
+要在使用服務之前在 BlueXP  中創建連接器，請參閱說明的 BlueXP  文檔 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["如何建立 BlueXP Connector"^]。
+
+設定 Connector 並新增工作環境之後、請等待約 15 分鐘、等待初始探索。

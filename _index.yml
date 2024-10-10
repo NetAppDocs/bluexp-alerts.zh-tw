@@ -1,10 +1,10 @@
 ---
 indexpage:
   title: BlueXP  警示文件
-  summary: BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中的問題或潛在風險。透過此服務、您可以使用 NetApp 系統管理員深入瞭解警示詳細資料、並檢視叢集資訊。
+  summary: BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中的問題或潛在風險。透過此服務、您可以使用 ONTAP 系統管理員深入瞭解警示詳細資料、並檢視叢集資訊。
   keywords: bluexp, ONTAP, alerts, system manager
   lead: BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中與容量、效能、保護、可用度及安全性相關的問題或潛在風險。使用此服務、您可以深入瞭解警示詳細資料、並檢視連結至
-    NetApp 系統管理員的叢集資訊。
+    ONTAP 系統管理員的叢集資訊。
   tiles:
   - title: 開始使用
     links:

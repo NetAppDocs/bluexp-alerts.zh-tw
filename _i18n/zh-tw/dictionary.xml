@@ -242,8 +242,6 @@
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">BlueXP  警示的完整版本可搭配 NetApp ONTAP 授權使用。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">授權</block>
   <block id="1b083639d38de1b116aea6c5558968ec" category="paragraph">BlueXP  警示服務需要 NetApp ONTAP 9 10 或更高版本的授權。</block>
-  <block id="e907b41f5f3d7332bee5a43fbbf78a08" category="inline-link-macro">設定授權</block>
-  <block id="d69945d07ffe69d68b278fa3f6ee11ac" category="paragraph">此服務只能部署在 BlueXP  標準（公開）模式中。如需詳細資訊、請參閱 <block ref="271bc4c83b3d27b2a7fc60eb23418118" category="inline-link-macro-rx"></block>。</block>
   <block id="55a90d444e30ddc01cd8a8da27cd9018" category="section-title">BlueXP  警示的運作方式</block>
   <block id="3e552726fea4952e3fd397f2cbf69243" category="paragraph">BlueXP  警示服務是 BlueXP  的核心元件。BlueXP  警示服務會監控 ONTAP 叢集、並從 ONTAP 接收警示資料。</block>
   <block id="78097856f6f945c9619179338ebbf597" category="paragraph">BlueXP  警示僅適用於 BlueXP  SaaS 環境。本機連接器 UI 中無法使用此功能。</block>
@@ -299,4 +297,5 @@
   <block id="864130dd293829108709c2327b91d445" category="paragraph">BlueXP  警示是一項服務、可讓您使用標準 BlueXP  Connector 來檢視 NetApp 內部部署 ONTAP 環境中的問題或潛在風險。使用此服務、您可以使用 ONTAP 系統管理員深入瞭解詳細資料。</block>
   <block id="a138b80b6963a03eb4d692dbdc025e3e" category="sidebar">BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中與容量、效能、保護、可用度及安全性相關的問題或潛在風險。使用此服務、您可以深入瞭解警示詳細資料、並檢視連結至 ONTAP 系統管理員的叢集資訊。</block>
   <block id="164a30a809f9f6485699e82e4c81d60c" category="sidebar">BlueXP  警示是一項服務、可讓您檢視 NetApp ONTAP 環境中的問題或潛在風險。透過此服務、您可以使用 ONTAP 系統管理員深入瞭解警示詳細資料、並檢視叢集資訊。</block>
+  <block id="83e69dcb76418af8dc10c3db810ded80" category="paragraph">此服務只能部署在 BlueXP  標準（公開）模式中。</block>
 </blocks>

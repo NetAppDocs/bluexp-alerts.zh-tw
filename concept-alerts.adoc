@@ -54,7 +54,7 @@ BlueXP  警示服務需要 NetApp ONTAP 9 10 或更高版本的授權。
 
 您不需要擁有此服務的試用授權。
 
-此服務只能部署在 BlueXP  標準（公開）模式中。如需詳細資訊、請參閱 link:alerts-start-licenses.html["設定授權"]。
+此服務只能部署在 BlueXP  標準（公開）模式中。
 
 
 

@@ -28,5 +28,5 @@ link:alerts-start-setup.html["在 BlueXP 中設定 Connector"]。
 
 [role="quick-margin-list"]
 * link:alerts-use-dashboard.html["在「警示」清單頁面上檢視儲存問題和潛在風險"]。
-* link:alerts-use-alerts.html["在 System Manager 中檢視警示詳細資料"]。
+* link:alerts-use-alerts.html["在 ONTAP 系統管理員中檢視警示詳細資料"]。
 

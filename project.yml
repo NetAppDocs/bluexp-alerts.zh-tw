@@ -16,7 +16,9 @@ sidebar:
   - title: BlueXP  警示文件
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: BlueXP  警示的新功能
+      url: "/whats-new.html"
   - title: 開始使用
     entries:
     - title: 瞭解 BlueXP  警示

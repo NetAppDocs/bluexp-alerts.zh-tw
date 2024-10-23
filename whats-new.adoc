@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, ontap, bluexp, system manager' 
 summary: 瞭解 BlueXP  警示的新功能。 
 ---
-= 版本資訊： BlueXP  警示保護的新功能
+= BlueXP  警示的新功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -22,9 +22,9 @@ summary: 瞭解 BlueXP  警示的新功能。
 
 此 BlueXP  警示的初始版本包含下列功能：
 
-* * BlueXP  警示清單頁面 * ：您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、並識別安全性風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。
+* * BlueXP  警示清單頁面 * ：您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度、並識別安全風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。
 * * 警示詳細資料 * ：您可以深入瞭解警示詳細資料並尋找建議。
-* * 檢視連結至系統管理員 * 的叢集詳細資料：透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 NetApp 系統管理員的詳細資料。
+* * 檢視連結至系統管理員 * 的叢集詳細資料：透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 ONTAP 系統管理員的詳細資料。
 
 
 https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["瞭解 BlueXP  警示"]。

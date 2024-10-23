@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: alerts-use-alerts.html 
 keywords: alerts, ontap, netapp, system manager, bluexp 
-summary: 透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 BlueXP  系統管理員的詳細資料。 
+summary: 透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 ONTAP 系統管理員的詳細資料。 
 ---
 = 檢視 ONTAP 儲存環境中的警示詳細資料
 :hardbreaks:
@@ -28,14 +28,14 @@ image:alerts-detail.png["警示詳細資料"]
 
 
 
-== 在 BlueXP  系統管理員中檢視叢集的詳細資料
+== 在 ONTAP 系統管理員中檢視叢集的詳細資料
 
 . 從警示清單頁面中、選取警示。
 . 在警示中、按一下頁面頂端的叢集名稱。
 +
-BlueXP  系統管理員現在會顯示叢集的相關資訊。
+ONTAP 系統管理員現在會顯示叢集的相關資訊。
 
 +
-image:alerts-system-manager-cluster.png["顯示叢集資訊的 BlueXP  系統管理員"]
+image:alerts-system-manager-cluster.png["顯示叢集資訊的 ONTAP 系統管理員"]
 
 

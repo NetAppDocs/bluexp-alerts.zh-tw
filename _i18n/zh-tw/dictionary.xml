@@ -60,7 +60,6 @@
   <block id="a66b5f7e17e36a58b03ec77382eb6743" category="list-text">該組織的 BlueXP  使用者、其組織管理員 Privileges 可用於探索資源</block>
   <block id="801e5ac526198ee67b36c61b75c65eab" category="inline-link">標準 BlueXP 需求</block>
   <block id="5b4e347dbf978618d47c067b87ad3fe2" category="list-text"><block ref="5b4e347dbf978618d47c067b87ad3fe2" category="inline-link-rx"></block></block>
-  <block id="e9b7b72938a53a4398858e7a161efbfb" category="summary">只需幾個步驟就能開始使用 NetApp BlueXP  警示服務。</block>
   <block id="4693ecf07b719f1a075e0e08b806e1d6" category="doc">BlueXP  警示快速入門</block>
   <block id="6d3b1e3c658d935abf3a5e7434bd4c1b" category="paragraph">以下概述開始使用 BlueXP  警示所需的步驟。每個步驟中的連結都會帶您前往提供更多詳細資料的頁面。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
@@ -200,8 +199,6 @@
   <block id="787c13bd5678ea2fd13caed9c3d7f793" category="list-text">Volume 自動調整大小成功</block>
   <block id="70e7847ce31f3a07ce7dbe2cac0c55bf" category="list-text">Volume離線</block>
   <block id="d963b659cc2c03f1af4ded1f17740e4f" category="list-text">Volume 受限</block>
-  <block id="e60fdbc6a294498300f49aa127139a42" category="inline-link">System Manager 可深入瞭解容量、安全性和組態問題</block>
-  <block id="aa234240d0a0cda8353d19805476de1b" category="paragraph">如需 ONTAP 警示的詳細資訊、請參閱 ONTAP 文件和 System Manager 深入資訊、網址為：<block ref="b77ce041c81545bf6290dc1fe3f366a7" category="inline-link-rx"></block>。</block>
   <block id="62ee36e144821eacbed3c81b0f0497c8" category="section-title">檢視 ONTAP 儲存問題</block>
   <block id="069f2dbaf4ab6cd3493075c1ed095e12" category="paragraph">探索之後、「警示」清單頁面會顯示 ONTAP 環境中的警示清單。</block>
   <block id="c4e8a37d21324f2e04c75f3371485f1f" category="paragraph">發生事件與顯示事件的 BlueXP  警示之間可能會有延遲。</block>
@@ -227,7 +224,6 @@
   <block id="89658a5893663786a5a3b0365a186901" category="paragraph">BlueXP  警示提供下列優點：</block>
   <block id="f7e430f46106032cfbe3b93ecd7ffbf8" category="list-text">取得跨叢集的 ONTAP 儲存設備相關警示。</block>
   <block id="c036c9564723f87e6682ea3f542c999a" category="list-text">以您用於其他服務的相同 BlueXP  UI 檢視警示。</block>
-  <block id="811073dacb65f03c311b21e5d5357881" category="list-text">深入瞭解 ONTAP 叢集上的警示：從 BlueXP  警示開始、並在 NetApp 系統管理員中查看詳細資料。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="82cf93c6b22e730b302286dee304e8cc" category="paragraph">BlueXP  警示的完整版本可搭配 NetApp ONTAP 授權使用。</block>
   <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">授權</block>
@@ -297,6 +293,10 @@
   <block id="3108a0619eec0e2ef9c6c5bd796bbf0d" category="paragraph">您可以快速識別容量低或效能低的 ONTAP 叢集、評估可用度並識別安全風險。您可以檢視容量、效能、保護、可用度、安全性和組態等相關警示。</block>
   <block id="907b4f5ff0a11b28375c092b0b876c3e" category="section-title">警示詳細資料</block>
   <block id="2c132bb868e25bdbc509ab83d2436d71" category="paragraph">您可以深入瞭解警示詳細資料並尋找建議。</block>
-  <block id="b361027502c50a2e2c7efbe96a5720bf" category="section-title">檢視連結至 System Manager 的叢集詳細資料</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="9ba3a5a376a4241ee4847ae13742a741" category="section-title">檢視連結至 ONTAP 系統管理員的叢集詳細資料</block>
+  <block id="a4598a7400565176f635033fb26b11d1" category="summary">只需幾個步驟就能開始使用 BlueXP  警示服務。</block>
+  <block id="79f36a1cf2d28dc09a5c06d96f5fc526" category="inline-link">ONTAP System Manager 可深入瞭解容量，安全性和組態問題</block>
+  <block id="b433a03cbe41f57ebb306c3f7c73f769" category="paragraph">如需 ONTAP 警示的詳細資訊，請參閱 ONTAP 文件和 ONTAP 系統管理員深入分析，網址為：<block ref="54212393114a0de7994bf970936414f9" category="inline-link-rx"></block>。</block>
+  <block id="5dd402ee76aade36a9da6304ebc2bd25" category="list-text">深入瞭解 ONTAP 叢集上的警示：從 BlueXP  警示開始，並在 ONTAP 系統管理員中查看詳細資料。</block>
 </blocks>

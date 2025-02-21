@@ -34,7 +34,7 @@ summary: 瞭解 BlueXP  警示的新功能。
 
 
 
-=== 檢視連結至 System Manager 的叢集詳細資料
+=== 檢視連結至 ONTAP 系統管理員的叢集詳細資料
 
 透過 BlueXP  警示、您可以檢視與 ONTAP 儲存環境相關的警示、並深入瞭解連結至 ONTAP 系統管理員的詳細資料。
 

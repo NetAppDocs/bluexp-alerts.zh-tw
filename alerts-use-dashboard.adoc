@@ -139,7 +139,7 @@ EMS 警示：
 
 
 ====
-如需 ONTAP 警示的詳細資訊、請參閱 ONTAP 文件和 System Manager 深入資訊、網址為： https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["System Manager 可深入瞭解容量、安全性和組態問題"^]。
+如需 ONTAP 警示的詳細資訊，請參閱 ONTAP 文件和 ONTAP 系統管理員深入分析，網址為： https://docs.netapp.com/us-en/ontap/concepts/insights-system-optimization-concept.html["ONTAP System Manager 可深入瞭解容量，安全性和組態問題"^]。
 
 
 
